@@ -1,0 +1,9 @@
+test_id,expression,expected_type,expected_value
+CSV-01,2+3,value,5.0
+CSV-02,3-8,value,-5.0
+CSV-03,7/2,value,3.5
+CSV-04,2*(3+4),value,14.0
+CSV-05,1/0,error,CalculationError
+CSV-06,   ,error,CalculationError
+CSV-07,10%4,value,2.0
+CSV-08,2**3,error,CalculationError
