@@ -1,0 +1,2 @@
+# Runtime dependencies
+# tkinter is part of Python standard library on most installations.
